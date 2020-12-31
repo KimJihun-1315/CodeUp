@@ -15,31 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1001.c">
+    <ClCompile Include="Question.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1002.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1003.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1004.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1005.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1006.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1007.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1008.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1009.c">
+    <ClCompile Include="Answer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

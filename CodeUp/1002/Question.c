@@ -20,12 +20,6 @@ int main()
 입력 : 입력없음
 출력 : Hello World
 
-입력예시 : 
+입력예시 :
 출력예시 : Hello World
 */
-
-#include <stdio.h>
-
-void main() {
-	printf("Hello World");
-}
