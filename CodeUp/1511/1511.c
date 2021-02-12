@@ -12,7 +12,26 @@
 
 int main(void) {
 	int n;
-	int L, R, T, B, C; //왼쪽 오른쪽 상단 하단 코너 부분의 값을 더하여 저장할 변수
+	int L = 0, R = 0, T = 0, B = 0, C = 0;	//왼쪽 오른쪽 상단 하단 코너 부분의 값을 더하여 저장할 변수
 
-	scanf("")
+	scanf("%d", &n);
+	C = 1 + n + (n * n - n + 1) + (n * n);
+	for (int i = 2; i < n; i++)
+	{
+		T = T + i;
+	}
+	for (int i = (n * n - n + 2); i < n*n; i++)
+	{
+		B = B+i;
+	}
+	for (int i = 2; i < n; i++)
+	{
+		R = R + i * n;
+	}
+	for (int i = 1; i < n-1; i++)
+	{
+		L = L + i * n + 1;
+	}
+
+	printf("%d, %d, %d, %d, %d",C, T, B, R, L);
 }
